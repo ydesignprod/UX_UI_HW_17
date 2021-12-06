@@ -1,5 +1,17 @@
-.nav {
+.menu {
     display: inline;
-    width: 20px;
-    height: 20px;
+    vertical-align: top;
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+  }
+
+  .nav {
+    width:73%;
+    padding:1%;
+  }
+
+  .ul {
+    width:50%;
+    margin-left: auto;
   }
