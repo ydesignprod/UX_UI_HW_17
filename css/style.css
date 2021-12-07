@@ -1,17 +1,53 @@
-.menu {
-    display: inline;
+.header {
+    display: inline-block;
     vertical-align: top;
-    width: 23%;
+    /*width: 23%;
     padding: 1%;
-    text-align: center;
+    text-align: center;*/
   }
 
   .nav {
     width:73%;
     padding:1%;
+    display: inline-block;
   }
 
-  .ul {
+  .logoImg{
+    width:23%;
+    padding:1%;
+    display: inline-block;
+    text-align:center;
+  }
+
+  .heroImg{
+    display: inline-block;
+    height:600px;
+    padding:25px;
+  }
+
+  footer ul {
     width:50%;
     margin-left: auto;
+    display:inline-block;
+    vertical-align: top;
+    padding-left:50%;
+    padding-right:50%;
+  }
+  
+  footer ul li{
+    padding:10px;
+    display:inline-block;
+  }
+  
+  p {
+    width:500px;
+    margin: 0 auto;
+
+    text-align: center;
+    color: red;
+  }
+
+  footer{
+    background-color: #373738;
+
   }
